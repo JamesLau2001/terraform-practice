@@ -4,6 +4,6 @@ include
 lib
 pyvenv.cfg
 .ssh
-.terraform
+.terraform/
 .terraform.lock.hcl
 terraform.tfstate
