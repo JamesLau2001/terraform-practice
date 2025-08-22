@@ -35,7 +35,6 @@ resource "aws_instance" "app_server" {
   user_data = templatefile("${path.module}/cloud-init.yaml.tmpl", {
     instance_name = "terraform-practice"
     })
-
   tags = {
     Name = "terraform-practice"
   }
